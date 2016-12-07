@@ -1,0 +1,9 @@
+.Dynamo-icon svg {
+  fill: #EA7F27;
+  height:  48px;
+  cursor: pointer;
+}
+
+.Dynamo-icon:active svg {
+  fill: #FD3E1F;
+}
