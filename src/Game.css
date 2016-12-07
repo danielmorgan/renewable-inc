@@ -1,0 +1,26 @@
+.Game {
+  text-align: center;
+}
+
+.Game-logo {
+  height: 80px;
+  animation-name: Game-logo-spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.Game-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Game-intro {
+  font-size: large;
+}
+
+@keyframes Game-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
